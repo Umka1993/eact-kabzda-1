@@ -1,0 +1,16 @@
+.postsBlock {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    padding: 10px;
+    border-bottom: 1px solid green;
+}
+.postsBlock button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+}
+.post {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

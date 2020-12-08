@@ -1,0 +1,28 @@
+.nav {
+  grid-area: n;
+  background-color: burlywood;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+
+.item {
+  border-bottom: 1px solid  cornflowerblue ;
+  max-width: 90%;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  padding-left: 10px;
+}
+.item a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+
+}
+.item .activeLink {
+  font-weight: bold;
+  color: burlywood;
+}
